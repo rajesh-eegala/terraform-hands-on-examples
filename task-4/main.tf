@@ -21,7 +21,7 @@ output "instance_public_ip" {
 # Terraform state file
 terraform {
   backend "s3" {
-    bucket = "dev567-tf-state"
+    bucket = "resume-s3-bucket1"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
